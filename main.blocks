@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="o){J,p$M%gC}VdhwGN0Q" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="[=4EKYPgXXzz]t1qb$fZ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="7#9plZ;%?odEJ-.7gQ=7" x="192" y="5"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="21dy6M3dv.9!C!bM+X$m"><field name="i">IconNames.No</field><next><block type="SoundExpression_playUntilDone" id="UfkLAQWC|$=uPA]8{K-*"><field name="this">soundExpression.mysterious</field><next><block type="device_show_leds" id="!CJ014:+pTxmWg?}IXFE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="input_logo_event" id="X]XupX):0lhlaBJg$^zO" x="2" y="316"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="08CymSV_Rl9.Fwf4nh{{"><field name="i">IconNames.Yes</field><next><block type="SoundExpression_playUntilDone" id="YCv#z$GQKFU06z`2X}XE"><field name="this">soundExpression.twinkle</field><next><block type="device_show_leds" id="of@$qBL=-5?n{M^W)htX"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
